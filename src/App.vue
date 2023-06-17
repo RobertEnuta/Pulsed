@@ -1,47 +1,34 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Content from './components/Content.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="Test" />
+  <div class="min-h-screen bg-bgc font-roboto text-black p-2">
+    <span
+      class="text-xl text-bgc w-100 box-decoration-clone bg-gradient-to-r from-pulsed to-accent hover:box-decoration-slice hover:text-red"
+    >
+      <span class="">Apes and music <br /></span>
+      <span class="text-huge">Apes and music <br /></span>
+      <span class="text-giant">Apes and music <br /></span>
+    </span>
+    <div class="flex flex-1 flex-row text-sm text-black text-pulsed cursor-vertical-text">
+      <div class="flex-1">by robert</div>
+      <div class="flex-1"><img width="20px" height="20px" src="./assets/EU.jpg" /></div>
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+    <br />
+    <div class="flex flex-row flex-nowrap">
+      <div class="flex-auto w-1/2">tssssssssssssssssssssssssssssss</div>
+      <div class="flex-auto w-1/2">
+        tsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+      </div>
+    </div>
+    <div class="text-base flex-auto">base</div>
+    <div class="text-sm">small</div>
+    <!-- <Content msg="Apes and music" /> <br />
+    <div class="font-roboto font-black">Robert Enuta</div>
+    <Content msg="2dasdasd" />
+    <Content msg="3sa" /> -->
+  </div>
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
+<style scoped></style>
