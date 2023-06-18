@@ -3,6 +3,9 @@ import Content from './components/Content.vue'
 </script>
 
 <template>
+  <head>
+    <title>Apescapeists</title>
+  </head>
   <div class="min-h-screen bg-bgc font-roboto text-black p-2">
     <span
       class="text-xl text-bgc w-100 box-decoration-clone bg-gradient-to-r from-pulsed to-accent hover:box-decoration-slice hover:text-red"
@@ -22,7 +25,7 @@ import Content from './components/Content.vue'
       </div>
       <img class="flex-auto rounded-lg" width="20px" height="20px" src="./assets/EU.jpg" />
     </div>
-    <div class="text-base flex-1">bassssssssssssssssssssssssssssssssssssssssssssssse</div>
+    <div class="text-base flex-1">XXXXXXXXXXXXXXXXXX</div>
     <div class="text-sm flex-1">small</div>
     <!-- <Content msg="Apes and music" /> <br />
     <div class="font-roboto font-black">Robert Enuta</div>
