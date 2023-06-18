@@ -12,18 +12,18 @@ import Content from './components/Content.vue'
       <span class="text-giant">Apes and music <br /></span>
     </span>
     <div class="flex flex-1 flex-row text-sm text-black text-pulsed cursor-vertical-text">
-      <div class="flex-1">by robert</div>
+      <div class="flex-1 rounded-lg">by robert</div>
       <div class="flex-1"><img width="20px" height="20px" src="./assets/EU.jpg" /></div>
     </div>
     <br />
     <div class="flex flex-row flex-nowrap">
-      <div class="flex-auto w-1/2">tssssssssssssssssssssssssssssss</div>
       <div class="flex-auto w-1/2">
-        tsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+        tsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
       </div>
+      <img class="flex-auto rounded-lg" width="20px" height="20px" src="./assets/EU.jpg" />
     </div>
-    <div class="text-base flex-auto">base</div>
-    <div class="text-sm">small</div>
+    <div class="text-base flex-1">bassssssssssssssssssssssssssssssssssssssssssssssse</div>
+    <div class="text-sm flex-1">small</div>
     <!-- <Content msg="Apes and music" /> <br />
     <div class="font-roboto font-black">Robert Enuta</div>
     <Content msg="2dasdasd" />
