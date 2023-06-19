@@ -3,18 +3,22 @@ module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      bgc: '#D5D1BD',
-      red: '#CD5B6E',
-      orange: '#F1B025',
-      accent: '#71B4D9',
-      pulsed: '#0000ff'
+      bgc: '#4D68CA',
+      red: '#DF884E',
+      orange: '#9CC4E8',
+      accent: '#F7F1F5',
+      pulsed: '#D25890',
+      words: '#FF9FCB',
+      dark: '#000000',
+      hwite: '#FFFFFF',
+      blue: '#0000FF'
     },
     fontFamily: {
       roboto: ['Roboto', 'sans-serif']
     },
     fontSize: {
-      sm: ['14px', '20px'],
-      base: ['20px', '26px'],
+      sm: ['20px', '20px'],
+      base: ['25px', '40px'],
       lg: ['40px', '48px'],
       xl: ['50px', '60px'],
       huge: ['55px', '59px'],
