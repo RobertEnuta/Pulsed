@@ -183,10 +183,30 @@ export default {
             <!-- ========================================================================================================================================================
         ========================================================================================================================================================
         ======================================================================================================================================================== -->
-            <div class="col-span-2 relative first-letter:text-xl first-letter:text-pulsed">
-              Most things I experimented with I didn't end up liking but it was still a great
-              opportunity to learn something new. Since failure is the best teacher, here are some
-              more songs and SFX I didn't end up liking or using:
+            <div class="col-span-2 relative">
+              <div class="first-letter:text-xl first-letter:text-pulsed">
+                <ul class="list-disc">
+                  In conclusion, here is a little about each indicator:
+                  <li>
+                    Exploring purpose and passion: <br />
+                    - I combined my passion for video games and coding with my passion for music
+                    with the goal of learning how to compose
+                  </li>
+                  <li>
+                    Creating impact:<br />
+                    - By creating music and sharing it with others
+                  </li>
+                  <li>
+                    Developing knowledge and skills:
+                    <br />- Learning music theory and composition
+                  </li>
+                  <li>
+                    Creating a future plan:
+                    <br />- Sharing the music and the games I am going to continue creating with
+                    others on Steam and Itch.io
+                  </li>
+                </ul>
+              </div>
             </div>
             <div>
               <!-- spacing for grid -->
@@ -199,6 +219,13 @@ export default {
             <!-- ========================================================================================================================================================
         ========================================================================================================================================================
         ======================================================================================================================================================== -->
+            <br />
+            <div class="col-span-4 text-black first-letter:text-pulsed text-dark">
+              Most things I experimented with I didn't end up liking but it was still a great
+              opportunity to learn something new. Since failure is the best teacher, here are some
+              more songs and SFX I didn't end up liking or using:
+            </div>
+
             <div class="p-5">
               <button @click="clickSong4()">
                 <img class="" src="./assets/running.png" />
