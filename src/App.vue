@@ -140,7 +140,10 @@ export default {
             <img class="w-10 h-10" src="./assets/EU.jpg" />
           </div>
         </div>
-        <button class="sticky top-0 w-16 h-16 z-30 rounded-md bg-accent" @click="endAll()">
+        <button
+          class="sticky top-0 w-16 h-16 z-30 rounded-md bg-accent hover:bg-words"
+          @click="endAll()"
+        >
           Stop all
         </button>
         <br />
@@ -151,7 +154,10 @@ export default {
               <span class="text-lg text-blue font-black">pulsed</span>
               I learned a lot of things, but I mostly focused and learning and discoverying more
               about music and composition. In this website you can listen to a few of the tracks
-              that I created with the intention of sharing and adding to my games. <br />
+              that I created with the intention of sharing and adding to my games. To show that I
+              have attached each song to a picture in the body that matches the song. For example;
+              the song called "Arctic theme" is linked with the 3D model of the penguin shown
+              here.<br />
               <span class="text-sm">(click on the images to play music/ click again to pause)</span>
             </div>
             <div>
@@ -177,9 +183,10 @@ export default {
               Music can be a very powerful tool if used properly. That's why I wanted to spend this
               semester learning more about music and how to use sound to create an impact. I wanted
               to understand how to use and create audio that can create an impact on others. I am
-              planning of also sharing the stuff I create with others through services like Steam
+              planning on also sharing the stuff I create with others through services like Steam
               and Itch.io.
             </div>
+
             <!-- ========================================================================================================================================================
         ========================================================================================================================================================
         ======================================================================================================================================================== -->
@@ -190,20 +197,28 @@ export default {
                   <li>
                     Exploring purpose and passion: <br />
                     - I combined my passion for video games and coding with my passion for music
-                    with the goal of learning how to compose
+                    with the goal of learning how to compose. I've always loved video games and
+                    using them to connect with others. Music is a huge part of any game and it can
+                    make or break and experince.
                   </li>
                   <li>
                     Creating impact:<br />
-                    - By creating music and sharing it with others
+                    - The music I want to make will usually be created around a theme or a message
+                    that will be share with others. Hopefully leaving a lasting impression and
+                    inspiring them to create something of their own.
                   </li>
                   <li>
                     Developing knowledge and skills:
-                    <br />- Learning music theory and composition
+                    <br />- Learning music theory and composition <br />- Figuring out how to work
+                    with FL Studio and Audacity <br />- Learning to 3D model so I am no longer
+                    limited to only pixel art
                   </li>
                   <li>
                     Creating a future plan:
                     <br />- Sharing the music and the games I am going to continue creating with
-                    others on Steam and Itch.io
+                    others on Itch.io and Steam. Selling the games I make and sharing the assets and
+                    music for free, so others are able to unleash their creativity without worrying
+                    about all of the aspects that go into creating a game.
                   </li>
                 </ul>
               </div>
